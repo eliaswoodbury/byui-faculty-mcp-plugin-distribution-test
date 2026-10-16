@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/marketplace.schema.json",
+  "name": "byui-faculty-pilot",
+  "interface": { "displayName": "BYU-Idaho Faculty Pilot" },
+  "plugins": [
+    {
+      "name": "byui-essay-grader",
+      "source": { "source": "local", "path": "./byui-essay-grader" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Education"
+    }
+  ]
+}
