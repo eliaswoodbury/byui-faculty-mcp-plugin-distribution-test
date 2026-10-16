@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "byui-faculty-mcp-plugin-distribution-test",
+  "name": "byui-essay-grader",
   "version": "0.1.0",
   "description": "A local essay-grading assistant with rubrics, submissions, and teacher-approved feedback.",
   "extensions": {
