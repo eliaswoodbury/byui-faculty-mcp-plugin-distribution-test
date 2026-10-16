@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "byui-essay-grader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A local essay-grading assistant with rubrics, submissions, and teacher-approved feedback.",
   "extensions": {
     "com.openai": {
@@ -11,7 +11,8 @@
         "longDescription": "A personal, local-first essay grading assistant for faculty testing.",
         "developerName": "BYU-Idaho Faculty Pilot",
         "category": "Education"
-      }
+      },
+      "apps": "./.app.json"
     }
   }
 }

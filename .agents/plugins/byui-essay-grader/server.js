@@ -18,6 +18,7 @@ function result(value) {
 }
 
 const tools = [
+  { name: "get_update_status", description: "Confirm which version of the BYU-Idaho Essay Grader is running.", inputSchema: { type: "object", properties: {}, additionalProperties: false } },
   { name: "list_rubrics", description: "List the locally available grading rubrics.", inputSchema: { type: "object", properties: {}, additionalProperties: false } },
   { name: "list_submissions", description: "List local essay submissions without exposing their full text.", inputSchema: { type: "object", properties: {}, additionalProperties: false } },
   { name: "prepare_grading", description: "Load one rubric and one submission for grading.", inputSchema: { type: "object", properties: { rubricId: { type: "string" }, submissionId: { type: "string" } }, required: ["rubricId", "submissionId"], additionalProperties: false } },
@@ -25,6 +26,7 @@ const tools = [
 ];
 
 async function callTool(name, args) {
+  if (name === "get_update_status") return result({ plugin: "BYU-Idaho Essay Grader", version: "0.2.0", message: "Update test successful — you are running version 0.2.0." });
   if (name === "list_rubrics") return result(await readJson("rubrics.json"));
   if (name === "list_submissions") {
     const submissions = await readJson("submissions.json");
