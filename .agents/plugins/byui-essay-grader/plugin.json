@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "byui-essay-grader",
+  "name": "byui-faculty-mcp-plugin-distribution-test",
   "version": "0.1.0",
   "description": "A local essay-grading assistant with rubrics, submissions, and teacher-approved feedback.",
   "extensions": {
@@ -11,8 +11,7 @@
         "longDescription": "A personal, local-first essay grading assistant for faculty testing.",
         "developerName": "BYU-Idaho Faculty Pilot",
         "category": "Education"
-      },
-      "apps": "./.app.json"
+      }
     }
   }
 }
