@@ -1,0 +1,14 @@
+[
+  {
+    "id": "argumentative-essay-100",
+    "name": "Argumentative Essay (100 points)",
+    "description": "A general-purpose rubric for evidence-based argumentative writing.",
+    "criteria": [
+      { "id": "thesis", "name": "Thesis and focus", "points": 25, "description": "Presents a clear, specific, defensible claim and maintains focus." },
+      { "id": "evidence", "name": "Evidence and reasoning", "points": 30, "description": "Uses relevant evidence and explains how it supports the claim." },
+      { "id": "organization", "name": "Organization", "points": 20, "description": "Uses a logical structure with effective transitions." },
+      { "id": "style", "name": "Style and clarity", "points": 15, "description": "Uses precise language, an appropriate tone, and readable sentences." },
+      { "id": "mechanics", "name": "Mechanics and formatting", "points": 10, "description": "Demonstrates control of grammar, spelling, punctuation, and required format." }
+    ]
+  }
+]
